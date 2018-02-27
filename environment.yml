@@ -1,4 +1,4 @@
-name: rllab3
+name: rllab-hrl
 channels:
     - https://conda.anaconda.org/kne 
     - https://conda.anaconda.org/tlatorre 
@@ -29,7 +29,6 @@ dependencies:
     - pandas
     - pip:
         - Pillow
-        - atari-py
         - pyprind
         - ipdb
         - boto3
